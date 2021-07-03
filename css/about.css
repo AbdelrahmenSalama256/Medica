@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img{
+    width: 100%;
+}
+a{
+    color: none !important;
+    text-decoration: none !important;
+}
+.quikLinks{
+    background-color: #fff;
+}
+.quikLinks ul li{
+    display: inline-block;
+    padding-right: 34px;
+    padding-top: 6px;
+    text-align: center;
+}
+.quikLinks ul li i {
+    color: #396cf0;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-weight: 900 !important;
+}
+.quikLinks ul li span{
+    font-size: 15px;
+    color: #646464 !important;
+    text-align: left;
+}
+.quikLinks .social i {
+    color: #a6b1b7;
+    background: #f5f8fa;
+    transition: all 0.5s ease-out;
+    font-size: 16px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+}
+.quikLinks .social i:hover{
+    background-color: #396cf0;
+    color: #fff;
+}
+.line {
+    background-color: #a6b1b7;
+    height: 1px;
+}
+.navbar-brand img{
+    width: 223px;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 22px !important;
+    color: #5f5f5f;
+    font-weight: 600 !important;
+    transition: .4s all;
+}
+.nav-link .fal {
+    color: #243eff;
+    padding-top: 5px;
+    font-size: 19px;
+    font-weight: 400;
+}
+.medicen-aboutUs {
+    background: linear-gradient(#3de7fa9b,#243eff),url(../img/slider_2-1536x560.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 255px;
+}
+.medicen-aboutUs h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.breadcrumb-item.active, .breadcrumb-item a, .breadcrumb-item {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+.breadcrumb-item.active, .breadcrumb-item a, .breadcrumb-item {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #fff !important;
+    content: "|" !important;
+}
+.medicen-about {
+    padding-top: 27px;
+}
+.medicen-about h2{
+    font-size: 34px;
+    font-weight: 600;
+    color: #262626;
+    margin-bottom: 40px;
+}
+.medicen-about h2 span {
+    background-color: #2f88fd;
+    color: #fff;
+    padding: 2px;
+}
+.medicen-about p:last-of-type {
+    margin-bottom: 40px;
+}
+.medicen-about p {
+    color: #7f7e7e;
+    font-size: 14px;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.medicen-about ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.medicen-about ul li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    z-index: 1;
+    padding-left: 40px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    list-style: none;
+}
+.medicen-about ul li:before{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 22px;
+    width: 8px;
+    height: 8px;
+    background-color: #2f88fd;
+    border-radius: 50%;
+    content: '';
+}
+.about-appointment{
+    background-image: url(../img/new-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.about-appointment h6 {
+    color: #a9b5bf;
+    font-size: 16px;
+    margin-bottom: 12px;
+    display: block;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.about-appointment h2{
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    line-height: 1.3;
+}
+.about-appointment .pel li {
+    background: #396cf0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 44px;
+}
+.about-appointment .pel i {
+    text-align: center;
+    font-size: 36px;
+    line-height: 2.2;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.5s ease-out;
+}
+.about-appointment .icon-caption{
+    color: #fff;
+    padding-top: 20px;
+}
+.about-appointment .icon-caption h3 {
+    margin-left: 100px;
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+}
+.about-appointment .icon-caption h3:hover{
+    color: #396cf0;
+}
+.about-appointment .icon-caption p{
+    margin-left: 100px;
+    padding-top: 27px;
+    color: #a9b5bf;
+    margin-bottom: -107px;
+
+}
+.about-appointment img{
+    padding-bottom: 20px;
+}
+.medicen-about-doctors {
+    background: linear-gradient(#3de7fa9b,#243eff),url(../img/xcta1.jpg.pagespeed.ic.8Fp1eMHNOL.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 355px;
+}
+.medicen-about-doctors h2 {
+    color: #fff;
+    font-size: 36px;
+    padding-top: 20px;
+}
+.medicen-about-doctors p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.medicen-about-doctors .medica-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: transparent;
+    height: 60px;
+    padding: 0 30px;
+    line-height: 56px;
+    font-size: 14px;
+    min-width: 140px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.medicen-about-doctors .medica-btn:hover{
+    color: #fff;
+    background-color: #2f88fd;
+    border-color: #2f88fd;
+}
+#button {
+    display: inline-block;
+    background-color: #243eff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    position: fixed;
+    border: none;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+
+  #button:hover {
+    cursor: pointer;
+    background-color: #396cf0;
+  }
+  #button:active {
+    background-color: #396cf0;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  @media (min-width: 500px) {
+    #button {
+      margin: 30px;
+    }
+  }
+.about-services img{
+    margin-bottom: 20px;
+    padding-top: 20px;
+    height: 50px;
+    width: auto;
+}
+.about-services h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+}
+.about-services p {
+    color: #7f7e7e;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 80px;
+}
+.about-services h6 {
+    font-weight: 600;
+    color: #262626;
+    line-height: 1.2;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    transition: .5s all;
+}
+.about-services .per {
+    margin-bottom: 47px;
+}
+.about-services h6:hover{
+    color: #2f88fd;
+    transition: .5s all;
+}
+.footer {
+    width: 100%;
+    height: 8rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .footer-content {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .copyright {
+    font-size: 13px;
+    color: #a7a7a7;
+  }
+  
+  .social-list a {
+    margin-right: 17px;
+}
+  
+  .social-list i {
+    font-size: 17px;
+    color: #a7a7a7;
+  }
+  @media (max-width: 500px) {
+    .footer {
+        height: 15rem;
+      }
+      .social-list i {
+        font-size: 10px;
+        padding-bottom: 10px;
+        color: #a7a7a7;
+      }
+}
